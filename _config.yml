@@ -1,7 +1,7 @@
 name: JackMora
 favicon: null
-layout_spectrum: 0.7013958590105176
-typography_spectrum: 0.6628403554204851
+layout_spectrum: 0.26326
+typography_spectrum: 0.77929
 cta:
   domain: null
   bucket: null
@@ -22,7 +22,7 @@ color:
     - '#3E363F'
     - '#DD403A'
   brandStrength: 0.02488748892210424
-  lightness: 0.9465214246883988
-  saturation: 0.7293276095297188
-  rhythmicContrast: 0.20758909708820283
+  lightness: 0.125
+  saturation: 0.8125
+  rhythmicContrast: 0.75
 purpose: []
