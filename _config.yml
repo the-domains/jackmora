@@ -1,28 +1,38 @@
-name: JackMora
 favicon: null
-layout_spectrum: 0.74943
-typography_spectrum: 0.77929
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: JackMora
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#ffffff'
-    - '#000000'
-    - '#adb5c9'
-    - '#504fb5'
-    - '#ff9aa2'
-  brandStrength: 1
-  lightness: 0
-  saturation: 1
-  rhythmicContrast: 0
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 1
+  lightness: 0
+  brandStrength: 0.5870032
+  brandColors:
+    - '#CDD1D7'
+    - '#414243'
+    - '#868889'
+  rhythmicContrast: 0
+typography_spectrum: 0.77929
+layout_spectrum: 0.915682
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
